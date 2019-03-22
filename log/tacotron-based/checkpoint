@@ -1,0 +1,6 @@
+model_checkpoint_path: "transliterator30L0.286"
+all_model_checkpoint_paths: "transliterator26L0.300"
+all_model_checkpoint_paths: "transliterator27L0.296"
+all_model_checkpoint_paths: "transliterator28L0.293"
+all_model_checkpoint_paths: "transliterator29L0.289"
+all_model_checkpoint_paths: "transliterator30L0.286"

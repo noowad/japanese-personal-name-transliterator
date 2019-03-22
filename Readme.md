@@ -38,7 +38,7 @@
 
 >>> transliterator.to_katakana(name='Michael Jackson', country='USA', top_k=5)
 
-['マイケル・ジョーダン', 'ミハエル・ヨルダン', 'ミカエル・ジョルダン', 'ミシェル・ホルダン', 'ミヒャエル・ヨーダン']
+
 
 ## Notes
 - 本システムを商用目的で使用することはできません。

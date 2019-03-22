@@ -1,8 +1,5 @@
-neural transliterator (Tsuduri)
+綴-ニューラルネットワークベースの外国人名カタカナ自動推定システム
 
-2019.03.16 jung dawoon
-
------------------------------
 1. 構成
 log: すべての人名データを学習データに利用して事前学習したモデルディレクトリ
 |---hparams: モデル構築に利用したハイパーパラメータ
@@ -10,8 +7,6 @@ log: すべての人名データを学習データに利用して事前学習し
 |---checkpoint:モデルのcheckpoint
 
 datas: 人名データ、語彙定義・カタカナの正規化に必要なファイルをまとめたディレクトリ
-|---nations:学習用データ。<IOC_code>.txtの形式で定義されている。
-|---cv: 実験用データ。Cross-validation実験に利用。
 |---eng_voca.txt:source人名の語彙
 |---jap_voca.txt:target人名の語彙
 |---nations.txt:国家リスト
